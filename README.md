@@ -17,14 +17,14 @@ Practicing compassionate code reviews is important (you can learn more from this
 
 - Multi-Part Form:  
   - [ ] Able to add feedback
-    - [ ] Data collected on individual pages & components
-    - [ ] Click on next takes you to the next page in sequence
+    - [x] Data collected on individual pages & components
+    - [x] Click on next takes you to the next page in sequence
     - [ ] Data saves in DB after *all* the parts are completed (not piecemeal)
     - [ ] Thank you page takes you back to the first view
     - [ ] Old Data is cleared on form completion
 
 - Client code:
-  - [ ]  Individual components for each form part
+  - [x]  Individual components for each form part
   - [ ]  Redux setup complete
     - [ ] Store linked to react with `<Provider>`
     - [ ] Store setup with reducer(s) and logger middleware 
@@ -36,28 +36,28 @@ Practicing compassionate code reviews is important (you can learn more from this
   - [ ] Review Component shows at all times with current redux state
   - [ ] React-Redux Working
     - [ ] Dispatching actions onClick
-    - [ ] Grabbing data from the redux store with `useSelector`
+    - [x] Grabbing data from the redux store with `useSelector`
   - [ ] Axios POST request to add feedback
 
 
 - Server code:   
-  - [ ] Router made for GET, POST
+  - [x] Router made for GET, POST
 
 
 ## General Items
 Feedback should be provided for these items, but they do not impact scoring.
 
 - Git 
-  - [ ] Multiple git commits showing incremental progress
+  - [x] Multiple git commits showing incremental progress
   - [ ] Commits are descriptive of the changes made or feature added 
-  - [ ] Has .gitignore with node_modules
+  - [x] Has .gitignore with node_modules
   - [ ] Readme file updated (assuming this is previously discussed)
 - Code Style 
   - [ ] Appropriate amount of code comments
   - [ ] Code is consistently formatted
 - Client
-  - [ ] Appropriate use of HTML tags
-  - [ ] Basic CSS styling with margins/padding
+  - [x] Appropriate use of HTML tags
+  - [x] Basic CSS styling with margins/padding
 
 
 ## Stretch Goals
@@ -88,14 +88,14 @@ First must be complete for score of  _Exceeds Expectations_
 ## Markdown
 
 ```
-Hey ___,
+Hey Dan,
 
 General Feedback.
 
 ---
 | Functional Requirements | Complete? |
 | --- | :---: |
-| Multi page form with client side routing and navigation (next button) | no |
+| Multi page form with client side routing and navigation (next button) | yes |
 | Data stored in Redux when navigating from page to page | no |
 | User is notified when trying to leave a blank score | no |
 | Review Component displays scores and comments from current redux state | no |
@@ -113,7 +113,7 @@ Notes on the above Functional Requirements.
 | General Items | Complete? |
 | --- | :---: |
 | More than 15 git commits | no |
-| Commits are descriptive of the changes made or feature added | no |
+| Commits are descriptive of the changes made or feature added | yes |
 | Readme file updated | no |
 | Appropriate amount of code comments | no |
 | Code is consistently formatted | no |
